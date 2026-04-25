@@ -1,0 +1,18 @@
+{
+  "name": "Grandma Scrabble",
+  "short_name": "GrandmaScrabble",
+  "description": "Scrabble game for Grandma",
+  "start_url": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#667eea",
+  "theme_color": "#667eea",
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
