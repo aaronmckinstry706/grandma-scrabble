@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: grandma-scrabble
+    env: node
+    plan: free
+    buildCommand: npm install
+    startCommand: npm start
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: GAME_ID
+        sync: false
